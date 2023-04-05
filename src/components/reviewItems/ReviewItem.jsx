@@ -3,7 +3,7 @@ import './ReviewItems.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrash } from '@fortawesome/free-solid-svg-icons'
 
-
+// hello world
 const ReviewItem = ({ product, handleRemoveFromCart }) => {
     const { id,  img, price, name, quantity } = product;
     console.log(id)
